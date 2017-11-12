@@ -1,0 +1,430 @@
+body {
+	margin: 0;
+}
+
+#wrapper {
+	
+}
+
+#upper_menu {
+	background-image: url(images/upper_menu.jpg);
+	background-repeat: round;
+	height: 90px;
+	width: 100%;
+}
+
+#upper_menu_wrapper {
+	margin: 0 9.375%;
+	max-height: 90px;
+
+	display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+
+#upper_logo {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #fff;
+	font-family: Century Gothic;
+	font-size: 25pt;
+	max-width: 170px;
+	max-height: 90px;
+
+	display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+#upper_logo span {
+	margin-left: 20px;
+	padding-top: 6px;
+}
+
+#menu_list {
+	padding-bottom: 21px;
+
+	display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+
+    flex-flow: row wrap;
+	justify-content: space-between;
+
+	width: 50%;
+}
+
+.menu_item {
+	padding-top: 36px;
+
+	-webkit-transition: border-bottom 0.3s linear;
+	-o-transition: border-bottom 0.3s linear;
+	-moz-transition: border-bottom 0.3s linear;
+	transition: border-bottom 0.3s linear;
+}
+
+.menu_item a {
+	text-decoration: none;
+	color: #fff;
+	font-family: Century Gothic;
+	font-size: 15pt;
+}
+
+.menu_item:hover {
+	border-bottom: 2px groove #df2020;
+}
+
+#lower_header {
+	background-image: url(images/lower_header.jpg);
+	background-repeat: round;
+	height: 115px;
+}
+
+#lower_header_name {
+	margin-left: 9.375%;
+	padding-top: 28px;
+
+	color: #fff;
+	font-family: Helvetica;
+	font-size: 28pt;
+}
+
+#nav_wrapper {
+	display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+#nav_bg {
+	background-image: url(images/nav_bg.png);
+	background-repeat: no-repeat;
+	width: 50%;
+	max-width: 735px;
+}
+
+#nav_bg nav {
+	margin-left: 40px;
+}
+
+.nav_item {
+	margin-right: 7px;
+
+	color: #fff;
+	font-family: Century Gothic;
+	font-size: 12pt;
+}
+
+.nav_item a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.wrapper_page {
+	margin: 0 9.375%;
+	padding-top: 80px;
+
+	display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+
+    flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.article, .heading {
+	width: 30%;
+
+	font-family: Century Gothic;
+}
+
+.heading h1, .heading h2, .heading h3 {
+	margin: 0;
+}
+
+.article {
+	font-size: 10pt;
+}
+
+#blockquotes_title {
+	width: 100%;
+	padding-top: 40px;
+}
+
+#blockquotes_title h1 {
+	margin: 0 auto;
+	max-width: 235px;
+
+	font-family: ChiaroStd;
+	font-size: 30pt;
+}
+
+#uline {
+	max-width: 150px;
+	margin: 0 auto;
+}
+
+#uline svg {
+	margin: 0 auto;
+	width: 150px;
+	background: linear-gradient(to right, #e60000, #003366);
+}
+
+#uline svg line {
+	margin: 0 auto;
+	width: 150px;
+}
+
+#blockquotes {
+	margin-top: 100px;
+
+	display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+
+    flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.blockquotes_item {
+	width: 40%;
+	padding: 20px;
+}
+
+.blockquotes_item i {
+	font-family: Trebuchet MS;
+	font-size: 12.2pt;
+
+}
+
+.blockquotes_item p i {
+	color: #e60000;
+}
+
+#first_blockquotes_item {
+	background-image: url(images/bg_item1.png);
+	background-repeat: no-repeat;
+}
+
+#dropcaps_title {
+	width: 100%;
+	padding-top: 40px;
+}
+
+#dropcaps_title h1 {
+	margin: 0 auto;
+	max-width: 185px;
+
+	font-family: ChiaroStd;
+	font-size: 30pt;
+}
+
+#dropcaps {
+	margin-top: 100px;
+
+	display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+
+    flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.dropcaps_item {
+	width: 45%;
+
+	font-family: Century Gothic;
+	font-size: 10pt;
+}
+
+.dropcaps_item img {
+	float: left;
+	margin-right: 4px;
+}
+
+#columns_title {
+	width: 100%;
+	padding-top: 40px;
+}
+
+#columns_title h1 {
+	margin: 0 auto;
+	max-width: 165px;
+
+	font-family: ChiaroStd;
+	font-size: 30pt;
+}
+
+#columns {
+	margin-top: 100px;
+
+	display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+
+    flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.columns_item {
+	font-family: Century Gothic;
+	font-size: 10pt;
+}
+
+#col_lvl1 {
+	width: 100%;
+}
+
+#col_lvl2 {
+	width: 48%;
+}
+
+#col_lvl3 {
+	width: 32%;
+}
+
+#col_lvl4 {
+	width: 24%;
+}
+
+#col_lvl5 {
+	width: 16%;
+}
+
+#col_lvl6 {
+	width: 64%;
+}
+
+#col_lvl7 {
+	width: 72%;
+}
+
+#col_lvl8 {
+	width: 80%;
+}
+
+#top {
+	margin-right: 100px;
+  	bottom: 0;
+  	cursor: pointer;
+  	display: none;
+  	font-size: 150%;
+  	position: fixed;
+  	right: 0;
+}
+
+#top_img {
+ 	opacity: 0.5;
+
+ 	-webkit-transition: opacity 0.8s linear;
+	-o-transition: opacity 0.8s linear;
+	-moz-transition: opacity 0.8s linear;
+	transition: opacity 0.8s linear;
+}
+
+#top_img:hover {
+	opacity: 1;
+}
+
+.footer {
+	margin-top: 130px;
+
+	background-image: url(images/footer_bg.png);
+	background-repeat: round;
+
+	width: 100%;
+	height: 150px;
+
+	display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+
+    flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.soc_media {
+	margin-left: 9.375%;
+	padding-top: 40px;
+
+	width: 20%;
+	max-height: 30px;
+
+	display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+
+    flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.soc_media img {
+	opacity: 0.6;
+
+	-webkit-transition: opacity 0.8s linear;
+	-o-transition: opacity 0.8s linear;
+	-moz-transition: opacity 0.8s linear;
+	transition: opacity 0.8s linear;
+}
+
+.soc_media img:hover {
+	opacity: 1;
+}
+
+#lower_logo {
+	padding-top: 20px;
+
+	width: 95px;
+
+	color: #fff;
+	font-family: Century Gothic;
+	font-size: 25pt;
+
+	display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+
+    flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+#lower_logo img {
+	width: 50px;
+	height: 50px;
+}
+
+#lower_logo p {
+	margin-top: 0;
+}
+
+#copyright {
+	padding-top: 40px;
+
+	width: 20%;
+
+	margin-right: 9.375%;
+
+	color: #fff;
+	font-family: Helvetica;
+	font-size: 10pt;
+}
